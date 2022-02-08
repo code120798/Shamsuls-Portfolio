@@ -27,3 +27,9 @@
 .input{
     width: 60%;
 }
+#msg{
+    width: 55%;
+}
+#send{
+    width: 20%;
+}
