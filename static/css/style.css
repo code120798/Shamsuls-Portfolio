@@ -70,3 +70,30 @@ h1{
 	font-size: 25px;
 	margin-bottom: 50px;
 }
+.newsletter form{
+	width: 100;
+	max-width: 100%;
+	position: relative;
+}
+.newsletter form input:first-child{
+	display: inline-block;
+	width: 100%;
+	padding: 14px 130px 14px 15px;
+	border: 2px solid #64d86b;
+	outline: none;
+	border-radius: 30px;
+}
+.newsletter form input:last-child{
+	position: absolute;
+	display: inline-block;
+	outline: none;
+	border: none;
+	padding: 10px 30px;
+	border-radius: 30px;
+	background-color: #64d86b;
+	color: white;
+	cursor: pointer;
+	box-shadow: 0px 0px 5px #000, 0px 0px 15px #868686;
+	top: 6px;
+	right: 6px;
+}
