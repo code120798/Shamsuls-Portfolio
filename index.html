@@ -2,28 +2,40 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Shamsuls Portfolio</title>
     <link href="static/css/style.css" rel="stylesheet" type="text/css" />
     <link href="static/css/tablet.css" rel="stylesheet" type="text/css" media="screen and (max-width:800px)">
     <link href="static/css/phone.css" rel="stylesheet" type="text/css" media="screen and (max-width:530px)">
     <script src="https://kit.fontawesome.com/ef6c64c6bf.js" crossorigin="anonymous"></script>
-</head>
-<body>
-  <div class="navbar">
-    <nav>
-      <h2 class="logo">Portfo<span>lio</span></h2>
-      <ul>
-        <li><a href="#Home">Home</a></li>
-        <li><a href="#About Me">About Me</a></li>
-        <li><a href="#Portfolio">Portfolio</a></li>
-        <li><a href="#Services">Services</a></li>
-        <li><a href="#Contact">Contact</a></li>
-      </ul>
-      <a href="#" class="btn">Hire Me</a>
-    </nav>
+    <link rel="stylesheet" href="boxicons.min.css">
+    
+    <link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
 
-  <!---Home Page-->  
+    <link rel="preconnect" href="https://fonts.googleapis.com"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin> 
+    <link href="https://fonts.googleapis.com/css2?
+    family=Josefin+Sans:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+<!------start header------>
+  <header>
+    <a href="#" class="logo">Portfolio</a>
+    <div class="bx bx-menu" id="menu-icon"></div>
+
+    <ul class="navbar">
+      <li><a href="#Home">Home</a></li>
+      <li><a href="#About Me">About Me</a></li>
+      <li><a href="#Portfolio">Portfolio</a></li>
+      <li><a href="#Services">Services</a></li>
+      <li><a href="#Contact">Contact</a></li>
+    </ul>
+    <a href="#" class="h-btn">Hire Me</a>
+  </header>
+  
+  <!------start home------>
   <section class="Home" id="Home">
     <div class="home-text">
       <h4> Shamsul <span>Ali</span></h4>
@@ -36,6 +48,10 @@
       </div>
     </div>
   </section>
+
+  <!------link to javascript------>
+  <script type="text/javascript" src="js/script.js"></script>
+
     <div class="share">
       <p>Lets Connect</p>
       <div class="social">
@@ -50,9 +66,16 @@
   <!------About Me Page------>
   <section class="About" id="About">
    <div class="About-img">
-    <img src="/Users/shamsul/Documents/Portfolio/img/IMG_0014.jpg">
+    <img src="/Users/shamsul/Documents/Portfolio/img/a72b0c9618e42683cab4b6c1b415992d.jpeg">
    </div>
 
+   <div class="About-text">
+    <h2>About Me</h2>
+    <h5>Developer<span>& Designer</span></h5>
+    <p>i am a front-end web developer, i can provide a clean and responsive code with a beautiful, eye catching design. I can make the website UI more interactive with engaging web animations</p>
+    <a href="#" class="btn">Download CV</a>
+   </div>
 
+  
 </body>
 </html>
