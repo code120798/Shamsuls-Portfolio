@@ -8,8 +8,9 @@
 	scroll-behavior: smooth;
 	scroll-padding-top: 3.5rem;
 }
-.root{
-	--bg-color: black;
+:root{
+	--btn-color: rgb(252, 4, 4);
+	--bg-color: rgb(6, 6, 6);
 	--second-bg-color: ##191919;
 	--text-color: #fff;
 	--secound-color: #c6c9d8bf;
@@ -78,7 +79,7 @@ header{
 	height: 40px;
 	display: inline-block;
 	line-height: 42px;
-	background: var(--main-color);
+	background: var(--btn-color);
 	color: var(--text-color);
 	border: none;
 	border-radius: 30px;
@@ -103,4 +104,11 @@ section{
 	display: grid;
 	grid-template-columns: repeat(1, 1fr);
 	align-items: center;
+}
+.home-text h4{
+	margin: 20px 0px 20px;
+	font-size: var(--big-font);
+}
+span{
+	color: var(--main-color);
 }
