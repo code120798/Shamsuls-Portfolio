@@ -75,4 +75,4 @@ Content
 
 Media
 
-• The photos used in this site were obtained from google images and pintrest
+• The photos used in this site were obtained from google images and pintrest.
